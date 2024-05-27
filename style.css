@@ -313,7 +313,7 @@ section {
      
     
     section{
-        
+        overflow: hidden;
         
         & .list{
             & .item{
