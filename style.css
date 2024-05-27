@@ -286,13 +286,14 @@ section {
                 & .car-img{
                     position: absolute;                
                     
-                    width: 100%;
+                   
                     height: 50vh;
                     order: 2;
             }
             & .content{
-                position: absolute;
-                top: 20%;
+                position: static;
+                width: 100%;
+               
                 margin-bottom: ;
                 & h2{
                     font-size:  4em;
@@ -316,15 +317,19 @@ section {
         
         & .list{
             & .item{
-               
+               & .car-img{
+                width: 100%;
+               }
 
 
                 
 
                 & .content{
                     position: absolute;
-                    right: 10%
-                    ;
+                    right: 10%;
+                    margin-top: 20vh;
+                    
+                                        ;
                     
                     
                     
